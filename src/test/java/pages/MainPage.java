@@ -15,74 +15,30 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainPage {
     private SelenideElement
-            mainLogo = $("div.header_logo"),
-            openAccountButton =$(byText("Open Account")),
-            headerTitle = $("h1[class*='header_title']"),
-            switcherLanguage = $("a[href='#pll_switcher']"),
-            languagesMenuFooter =  $("ul[id*='languages-menu']"),
-            searchTitleFaq = $("h4[class='faq__search-title']"),
-            navMenuHeader = $("ul[class='ubermenu-nav']");
+            mainLogo = $("img[class='brand-logo']"),
+            navTabAbout =$("a[href='#about']"),
+            navTabSolutions =$("a[href='#features'] div.menu-link"),
+            navTabTestimonials =$("a[href='#reviews']"),
+            navTabPlans =$("a[href='#pricing']"),
+            navTabPayYourBill =$("a[href='http://pay.collectly.co']"),
+            navTabLogin =$("a[href='http://app.collectly.co']");
 
 
 
-    @Step("Открытие главной страницы")
+
     public MainPage openMainPage() {
         open(Configuration.baseUrl);
         return this;
     }
 
-    @Step("Проверка отображения логотипа на главной странице")
-    public MainPage checkLogoVisible() {
-        mainLogo.should(appear);
-        return this;
-    }
+    public SelenideElement getMainLogo(){ return mainLogo; }
 
-    @Step("Проверка открытия формы логина с главной страницы")
-    public MainPage openAnAccount() {
-        openAccountButton.should(appear).click();
-        headerTitle.shouldHave(text("Open an Account"));
-        return this;
-    }
-
-    @Step("Скролл главной страницы до футера")
-    public MainPage scrollToFooter() {
-        languagesMenuFooter.scrollTo().click();
-        return this;
-    }
-
-    @Step("Изменить язык главной страницы")
-    public MainPage choiceLanguageInFooter(String language) {
-        languagesMenuFooter.$(byText(language)).click();
-        switcherLanguage.$("img[alt="+language +"]").should(appear);
-        return this;
-    }
-
-
-    @Step("Ховер на пункте меню главной страницы")
-    public MainPage hoverMenuNav(String menuItem) {
-        $x("//ul[@class='ubermenu-nav']//span[text()='"+menuItem+"']").hover();
-        return this;
-    }
-    @Step("Клик по выбранному тексту")
-    public MainPage clickByText(String textClick) {
-        $(byText(textClick)).click();
-        return this;
-    }
-
-
-    @Step("Проверка текста хедара страницы FAQ")
-    public MainPage  checkSearchHeaderText(String textHeader) {
-        assertEquals(this.getSearchTitleFaq().getText(), textHeader);
-        return this;
-    }
-
-    public SelenideElement getSearchTitleFaq(){
-        return searchTitleFaq;
-    }
-
-
-
-
+    public SelenideElement getNavTabAbout(){ return navTabAbout; }
+    public SelenideElement getNavTabSolutions(){ return navTabSolutions; }
+    public SelenideElement getNavTabTestimonials(){ return navTabTestimonials; }
+    public SelenideElement getNavTabPlans(){ return navTabPlans; }
+    public SelenideElement getNavTabPayYourBill(){ return navTabPayYourBill; }
+    public SelenideElement getNavTabLogin(){ return navTabLogin; }
 
 
 }
