@@ -1,4 +1,4 @@
-package tutu;
+package collectly;
 
 
 import com.codeborne.selenide.Configuration;

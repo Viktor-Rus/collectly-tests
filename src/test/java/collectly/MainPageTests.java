@@ -1,4 +1,4 @@
-package tutu;
+package collectly;
 
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.BeforeEach;
