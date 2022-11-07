@@ -1,12 +1,6 @@
 # Проект по автоматизации тестирования collectly.co
 
 
-
-
-<img alt="InteliJ IDEA" height="100" src="external/logos/logo-big.svg" width="100"/>
-
-
-
 ## :ledger: Содержание
 
 * <a href="#stack">Cтек проекта</a>
