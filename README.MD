@@ -31,9 +31,8 @@
 <a id="object"></a>
 ## :keyboard: Реализованные автотесты
 - Проверка отображения логотипа на главной странице
-- Проверка открытия формы 'Open an Account'
-- Проверка переключателя языка в футере
-- Переход на страницу FAQ
+- Проверка наличия табов навигации
+- Проверка отображения секции Plans
 
 
 <a id="console"></a>
@@ -50,26 +49,28 @@ test
 
 
 
-<a id="selenoid"></a>
-## <a href="https://selenoid.autotests.cloud/video/e12daaa3cc2d6bb29c9b55c9887d976a.mp4"><img alt="Selenoid" height="50" src="external/logos/Selenoid.svg" width="50"/>Selenoid</a>
 
-<video src="https://user-images.githubusercontent.com/41300396/199748811-42f96978-1e65-410b-8bf4-3e57d86d435b.mp4"
+
+<a id="selenoid"></a>
+## <a href="https://selenoid.autotests.cloud/video/eb4ef82aa9a987a8a4e0e11815dd039a.mp4"><img alt="Selenoid" height="50" src="external/logos/Selenoid.svg" width="50"/>Selenoid</a>
+
+<video src="https://user-images.githubusercontent.com/41300396/200308857-9400de08-1624-4a7a-b13c-f2deb8631333.mp4"
 controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.svg">
 Видео не доступно для этого браузера
 </video>
 
 
 <a id="jenkins"></a>
-##  <a href="https://jenkins.autotests.cloud/job/amarkets-tests/"><img alt="Jenkins" height="50" src="external/logos/Jenkins.svg" width="50"/>Jenkins</a>
+##  <a href="https://jenkins.autotests.cloud/job/collectly-tests/"><img alt="Jenkins" height="50" src="external/logos/Jenkins.svg" width="50"/>Jenkins</a>
   
-<a href="https://jenkins.autotests.cloud/job/amarkets-tests/">
+<a href="https://jenkins.autotests.cloud/job/collectly-tests/">
 
 
 <img width="1496" src="https://user-images.githubusercontent.com/41300396/199749445-b19589d3-ac2d-4dc0-8159-b355e2b6645d.png">
 </a>
 
 <a id="allure"></a>
-## <a href="https://jenkins.autotests.cloud/job/amarkets-tests/67/allure/"><img alt="Allure" height="50" src="external/logos/Allure.svg" width="50"/>Allure</a>
+## <a href="https://jenkins.autotests.cloud/job/collectly-tests/4/allure/"><img alt="Allure" height="50" src="external/logos/Allure.svg" width="50"/>Allure</a>
 
 <table>
     <tr>
