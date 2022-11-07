@@ -58,6 +58,21 @@ public class MainPageTests extends TestBase {
         });
     }
 
+    @Test()
+    @Owner("vaurusov")
+    @DisplayName("Проверка отображения секции Plans")
+    void checkSectionPlansVisible() {
+        MainPage mainPage = new MainPage();
+
+        step("Проскролить до секции Plans}", ()-> {
+            mainPage.getSectionPlans().scrollTo();
+        });
+
+        step("Проверить отображение секции Plans", ()-> {
+            mainPage.getSectionPlans().should(visible);
+        });
+    }
+
 
 
 

@@ -13,6 +13,7 @@ public class MainPage {
             navTabPlans =$("a[href='#pricing']"),
             navTabPayYourBill =$("a[href='http://pay.collectly.co']"),
             navTabLogin =$("a[href='http://app.collectly.co']"),
+            sectionPlans =$("div[id='pricing']"),
             iconChat = $("div[aria-label*='chat'] path");
 
     public SelenideElement getMainLogo(){ return mainLogo; }
@@ -23,6 +24,7 @@ public class MainPage {
     public SelenideElement getNavTabPlans(){ return navTabPlans; }
     public SelenideElement getNavTabPayYourBill(){ return navTabPayYourBill; }
     public SelenideElement getNavTabLogin(){ return navTabLogin; }
+    public SelenideElement getSectionPlans(){ return sectionPlans; }
 
 
     public MainPage openMainPage() {
