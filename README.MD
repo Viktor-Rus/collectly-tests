@@ -63,33 +63,32 @@ controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.s
 <a id="jenkins"></a>
 ##  <a href="https://jenkins.autotests.cloud/job/collectly-tests/"><img alt="Jenkins" height="50" src="external/logos/Jenkins.svg" width="50"/>Jenkins</a>
   
-<a href="https://jenkins.autotests.cloud/job/collectly-tests/">
 
-
-<img width="1496" src="https://user-images.githubusercontent.com/41300396/199749445-b19589d3-ac2d-4dc0-8159-b355e2b6645d.png">
+<img width="1496" src="https://user-images.githubusercontent.com/41300396/200309968-b6ec1d1a-fbe6-4cf8-abca-a3c0d20bcf85.png">
 </a>
 
 <a id="allure"></a>
 ## <a href="https://jenkins.autotests.cloud/job/collectly-tests/4/allure/"><img alt="Allure" height="50" src="external/logos/Allure.svg" width="50"/>Allure</a>
 
+
+
 <table>
     <tr>
         <td>
-        <a href="https://jenkins.autotests.cloud/job/amarkets-tests/67/allure/">
-        <img src="https://user-images.githubusercontent.com/41300396/199749853-da5cb0eb-47a7-4be1-863f-4ed0d9732d91.png">
+        <a href="https://jenkins.autotests.cloud/job/collectly-tests/4/allure/">
+        <img src="https://user-images.githubusercontent.com/41300396/200310119-39d6771f-d49f-48f6-bc6a-920014238a15.png">
         </a>
         </td>
         <td>
-        <a href="https://jenkins.autotests.cloud/job/amarkets-tests/67/allure/#suites/1c475ca5e4fe837f70a957563a782ef3/a6f59ab421b2f94c/">
-        <img src="https://user-images.githubusercontent.com/41300396/199750556-8ea36349-6c45-4772-9542-bf8d2308505f.png">
+        <a href="https://jenkins.autotests.cloud/job/collectly-tests/4/allure/#suites/ff40ac19a7c75b636b386a7f2bcead58/8dfbca7816593e7c/">
+        <img src="https://user-images.githubusercontent.com/41300396/200310165-9752894e-3e7c-434c-8011-229ae13e821a.png">
         </a>
         </td>
     </tr>
 </table>
 
 
-
 <a id="telegram"></a>
 ## <a><img alt="Telegram" height="50" src="external/logos/Telegram.svg" width="50"/>Telegram</a>
 
-<img width="769"  src="https://user-images.githubusercontent.com/41300396/199750764-93c7d73c-41b2-4596-94ee-523731abbfdc.png">
+<img width="769"  src="https://user-images.githubusercontent.com/41300396/200310490-560065c4-496d-42c1-99fd-811d8a89e815.png">
