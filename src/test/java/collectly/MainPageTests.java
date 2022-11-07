@@ -8,8 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
-import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.*;
 import static io.qameta.allure.Allure.step;
 
 
@@ -27,7 +26,6 @@ public class MainPageTests extends TestBase {
     @Owner("vaurusov")
     @DisplayName("Проверка отображения логотипа на главной странице")
     void mainLogoVisible() {
-
         step("Проверка отображаения логотипа на главной странице ", ()-> {
             new MainPage().getMainLogo().should(appear);
         });
@@ -59,6 +57,7 @@ public class MainPageTests extends TestBase {
             mainPage.getNavTabLogin().shouldHave(text("Login"));
         });
     }
+
 
 
 
