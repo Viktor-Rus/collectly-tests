@@ -23,10 +23,10 @@ public class TestBase {
 
         Configuration.browserCapabilities = capabilities;
 
-//        Configuration.browserSize = System.getProperty("browser_size");
-//        Configuration.browser = System.getProperty("browser_name");
-//        Configuration.browserVersion = System.getProperty("browser_version");
-//        Configuration.remote = System.getProperty("remote_selenide");
+        Configuration.browserSize = System.getProperty("browser_size");
+        Configuration.browser = System.getProperty("browser_name");
+        Configuration.browserVersion = System.getProperty("browser_version");
+        Configuration.remote = System.getProperty("remote_selenide");
         Configuration.baseUrl = "https://www.collectly.co/";
 
     }
